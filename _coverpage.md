@@ -1,15 +1,8 @@
-![icon](https://notebook.js.org/images/icon.png)
+![icon](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/icon.png)
 
-## 博客
+## 个人博客
 
-- 做一个眼中有梁木的人，记录一路走来学习的计算机专业知识 ，力求完美构建Java全栈知识体系
-
-<img src="https://img.shields.io/badge/version-v2.0.0-green.svg" data-origin="https://img.shields.io/badge/version-v2.0.0-green.svg" alt=""> 
-<img src="https://img.shields.io/github/stars/wugenqiang/NoteBook" data-origin="https://img.shields.io/github/stars/wugenqiang/NoteBook" alt=""> 
-<img src="https://img.shields.io/github/forks/wugenqiang/NoteBook" data-origin="https://img.shields.io/github/forks/wugenqiang/NoteBook" alt="">
-<img src="https://img.shields.io/github/license/wugenqiang/NoteBook" data-origin="https://img.shields.io/github/license/wugenqiang/NoteBook" alt="">
-
-<br>
+- 不积跬步，无以至千里! 记录一路走来学习的计算机专业知识，力求完美构建Java全栈知识体系
 
 <br>
 
@@ -22,9 +15,8 @@
 
 <br>
 
-[GitHub](https://github.com/wugenqiang/NoteBook)
+[GitHub](https://github.com/white-Amber/docs)
 [开始阅读](/README.md)
 
 <!-- 背景色 -->
-
 ![color](#fff)

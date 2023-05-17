@@ -7,6 +7,11 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+
+  <!-- 自定义特色样式：by myself -->
+  <link rel="stylesheet" href="https://notebook.js.org/plugin/css/me.css">
+  <!-- 日间/夜间主题切换插件 -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css" title="docsify-darklight-theme" type="text/css"/>
 </head>
 <body>
   <div id="app"></div>
@@ -14,101 +19,52 @@
     window.$docsify = {
       name: '🌈 NoteBook', // 文档标题，会显示在侧边栏顶部
       repo: 'white-Amber/docs', // 右上角Github图标链接
-      loadNavbar: true, // 默认加载 _navbar.md，作为顶部导航栏
       //loadSidebar: true, // 默认加载 _sidebar.md，作为侧边栏
+      auto2top: true,  //当路线改变时,滚动到屏幕的顶部
+      loadNavbar: true, // 默认加载 _navbar.md，作为顶部导航栏
+      mergeNavbar: true, // 小屏设备下合并导航栏到侧边栏。
+      executeScript: true,//执行页面上的脚本。只解析第一个脚本标记（演示）。如果存在Vue，则默认开
       maxLevel: 6, //最大的内容表级别
       //subMaxLevel: 6, //在自定义边栏中添加目录（TOC)
       coverpage: true, // 自定义封面, docsify便会默认加载 _coverpage.md，来作为封面的格式。
-      mergeNavbar: true, // 小屏设备下合并导航栏到侧边栏。
+      onlyCover: true, // 只在访问主页时加载封面。
+      topMargin: 60,//调整top
       search: {
         paths: 'auto',
-        placeholder: '🔍搜索',
-        noData: '找不到结果',
-        depth: 6, // Headline depth, 1 - 6
-      },
+        placeholder: '🔍 搜索',
+        noData: '😒 找不到结果',
+        // Headline depth, 1 - 6
+        depth: 6,
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+      }, //添加搜索框
+      count:{
+        countable:true,
+        fontsize:'0.9em',
+        color:'rgb(90,90,90)',
+        language:'chinese'
+      }, //字数统计
       footer: {
-        copy: '<div class = "over" >完结</div><br/><span>我能想到最浪漫的事，就是我喝咖啡你付钱~😆😏 ❤️ 打赏地址：<a href="https://wugenqiang.js.org/sponsor/" target="_blank">https://wugenqiang.js.org/sponsor/</a></span><iframe src="https://wugenqiang.js.org/sponsor/" style="overflow-x:hidden;overflow-y:hidden; min-height:240px; width:100%;"  frameborder="0" scrolling="no"></iframe><br/><span id="sitetime"></span><br/><span>Copyright &copy; 2019 - 至今</span>',
-        auth: ' <a href="https://wugenqiang.github.io/" target="_blank">🏷️ EnjoyToShare </a> <span> 一个人可以走的很快，但一群人才能走的更远！</span>',
+        copy: '<div class = "over" >完结</div></br><span id="sitetime"></span><br/><span>Copyright &copy; 2023 - 至今</span>',
+        auth: ' <a href="https://white-amber.github.io/docs" target="_blank">🏷️ EnjoyToShare </a> <span> 一个人可以走的很快，但一群人才能走的更远！</span>',
         pre: '<hr/>',
         style: 'text-align: left;',
       }, //添加页脚
     }
   </script>
   <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <!-- 搜索插件 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- Medium's 风格的图片缩放插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
   <!-- 一键复制插件 -->
-  <script src="https://notebook.js.org/plugin/docsify-copy-code.min.js"></script>
-  <!-- 回到顶部功能 -->
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/jquery-goup@1.1.3/src/jquery.goup.min.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function () {
-      $.goup({
-        trigger: 100,
-        bottomOffset: 52,
-        locationOffset: 25,
-        //title: 'TOP',
-        titleAsText: true
-      });
-    });
-  </script>
-
-  <!-- 代码块样式优化-->
-  <script src="https://notebook.js.org/plugin/prism-c.js"></script>
-  <!--<script src="//unpkg.com/prismjs/components/prism-cpp.js"></script>-->
-  <script src="https://notebook.js.org/plugin/prism-cpp.js"></script>
-  <script src="https://notebook.js.org/plugin/prism-css.js"></script>
-  <script src="https://notebook.js.org/plugin/prism-docker.js"></script>
-  <script src="https://notebook.js.org/plugin/prism-java.js"></script>
-  <script src="https://notebook.js.org/plugin/prism-javascript.js"></script>
-  <script src="https://notebook.js.org/plugin/prism-json.js"></script>
-  <script src="https://notebook.js.org/plugin/prism-latex.js"></script>
-  <script src="https://notebook.js.org/plugin/prism-sql.js"></script>
-  <script src="https://notebook.js.org/plugin/prism-markdown.js"></script>
-  <script src="https://notebook.js.org/plugin/prism-bash.min.js"></script>
-  <script src="https://notebook.js.org/plugin/prism-php.min.js"></script>
-  <script src="https://notebook.js.org/plugin/prism-scala.min.js"></script>
-  <script src="https://notebook.js.org/plugin/prism-nginx.min.js"></script>
-  <script src="https://notebook.js.org/plugin/prism-json.min.js"></script>
-  <script src="https://notebook.js.org/plugin/prism-markdown.min.js"></script>
-  <script src="https://notebook.js.org/plugin/prism-python.js"></script>
-  <script src="https://notebook.js.org/plugin/js/prism-yaml.js"></script>
-  <script src="https://notebook.js.org/plugin/js/prism-go.js"></script>
-  <script src="https://notebook.js.org/plugin/js/prism-matlab.js"></script>
-
-  <!-- mouse click -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <!-- 鼠标点击插件 -->
   <script src="https://notebook.js.org/plugin/click_heart.js"></script>
-  <!-- DOT 语言作图插件 -->
-  <!-- <script src="https://cdn.jsdelivr.net/npm/viz.js@1.8.0/viz.js"></script>
-  <script>
-    window.$docsify = {
-      markdown: {
-        renderer: {
-          code: function(code, lang) {
-            if (lang === "dot") {
-              return (
-                      '<div class="viz">'+ Viz(code, "SVG")+'</div>'
-              );
-            }
-            return this.origin.code.apply(this, arguments);
-          }
-        }
-      }
-    }
-  </script> -->
-
-  <!-- LaTex 数学公式插件 -->
-  <!-- <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/> -->
-
-
-
-
+  <!-- 字数统计插件 -->
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
   <!-- 添加页脚 -->
-  <script src="https://notebook.js.org/plugin/docsify-footer-enh.min.js"></script>
-
+  <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
   <!-- 添加网站运行时间统计 -->
   <script language=javascript>
       function siteTime() {
@@ -133,7 +89,7 @@
         minutes - 0-59之间的整数，做为date对象的分钟数
         seconds - 0-59之间的整数，做为date对象的秒数
         microseconds - 0-999之间的整数，做为date对象的毫秒数 */
-        var t1 = Date.UTC(2019, 06, 21, 22, 22, 22); //北京时间2019-06-21 22:22:22 //计划考研的日子，6月20日毕业典礼结束后，人生需要继续努力，加油，看到这句话的朋友们！
+        var t1 = Date.UTC(2023, 05, 14, 14, 14, 14); //北京时间2023-05-14 14:14:14 
         var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
         var diff = t2 - t1;
         var diffYears = Math.floor(diff / years);
@@ -145,6 +101,45 @@
       }
       siteTime();
   </script>
+  <!-- 回到顶部功能 -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-goup@1.1.3/src/jquery.goup.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $.goup({
+        trigger: 100,
+        bottomOffset: 52,
+        locationOffset: 25,
+        //title: 'TOP',
+        titleAsText: true
+      });
+    });
+  </script>
+  <!-- 日间/夜间主题切换插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js" type="text/javascript"></script>
+
+  <!-- 代码块样式优化-->
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-c.js"></script>
+  <!--<script src="//unpkg.com/prismjs/components/prism-cpp.js"></script>-->
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-cpp.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-css.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-docker.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-java.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-javascript.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-json.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-latex.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-sql.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-markdown.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-bash.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-php.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-scala.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-nginx.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/componentsprism-json.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-markdown.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-yaml.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-go.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-matlab.js"></script>
 
   <!-- 访问量统计 -->
   <script async src="https://notebook.js.org/plugin/js/busuanzi.pure.mini.js"></script>
