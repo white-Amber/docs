@@ -18,7 +18,7 @@
 
 ## ☕️ Java
 
-* [Java 入门基础编程笔记](/Java/Java-Base-Notes.md)
+* [JavaSE笔记](/Java/JavaSE/README.md)
 
 
 # 🚀 计算机基础
