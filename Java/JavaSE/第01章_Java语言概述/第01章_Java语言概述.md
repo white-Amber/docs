@@ -1,20 +1,16 @@
 # 第01章_Java语言概述
 
-讲师：尚硅谷-宋红康（江湖人称：康师傅）
-
-官网：[http://www.atguigu.com](http://www.atguigu.com/)
-
 ***
 
 ## 1. Java知识脉络图
 
 ### 1.1 Java基础全程脉络图
 
-<img src="images/Java基础全程脉络图.png" alt="Java基础全程脉络图" style="zoom: 50%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/Java%E5%9F%BA%E7%A1%80%E5%85%A8%E7%A8%8B%E8%84%89%E7%BB%9C%E5%9B%BE.png" alt="Java基础全程脉络图" style="zoom: 50%;" />
 
 ### 1.2 本章专题与脉络
 
-<img src="images/第1阶段：Java基本语法-第01章.png" alt="第1阶段：Java基本语法-第01章" style="zoom: 45%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/%E7%AC%AC1%E9%98%B6%E6%AE%B5%EF%BC%9AJava%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95-%E7%AC%AC01%E7%AB%A0.png" alt="第1阶段：Java基本语法-第01章" style="zoom: 45%;" />
 
 ## 2. 抽丝剥茧话Java
 
@@ -22,15 +18,15 @@
 
 - `麦可思研究院`发布了《**2022年中国大学生就业报告**》，针对2021届毕业生收入较高的本科专业排行榜：
 
-<img src="images/37cb4fd26b284de3913374e9660e870d.jpeg" alt="img" style="zoom: 50%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/37cb4fd26b284de3913374e9660e870d.jpeg" alt="img" style="zoom: 50%;" />
 
 - `麦可思研究院`发布过《**2021年中国大学生就业报告**》，应届本科毕业生就业数量较大的前十位行业类的就业质量：
 
-  <img src="images/jiuyezhiliang1.jpg" alt="jiuyezhiliang1" style="zoom: 67%;" />
+  <img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/jiuyezhiliang1.jpg" alt="jiuyezhiliang1" style="zoom: 67%;" />
 
 - 报告还对毕业三年后的2017届毕业生所在十大行业进行了统计：
 
-<img src="images/jiuyezhiliang2.jpg" alt="jiuyezhiliang2" style="zoom: 60%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/jiuyezhiliang2.jpg" alt="jiuyezhiliang2" style="zoom: 60%;" />
 
 - 从国家统计局发布的2021年全国平均工资来看，不管在城镇非私营单位还是私营单位，`IT业均为最高`。
 
@@ -38,7 +34,7 @@
 
 过去不能代表未来！互联网是否依旧靠谱？！
 
-<img src="images/image-20220523002428542.png" alt="image-20220523002428542" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220523002428542.png" alt="image-20220523002428542" style="zoom:80%;" />
 
 > 2014 年至 2018 年间，我国网民规模从 6.49 亿增长为 8.29 亿，增幅为 `27.5%`。同一时间段，全国移动互联网接入的流量却从 20.6EB 增长到了 711.1EB，增幅达 `3352%`（获取和处理的信息量大幅增加）。 
 >
@@ -48,7 +44,7 @@
 
 ### 2.3 IT行业岗位分析
 
-<img src="images/image-20220522234544537.png" alt="image-20220522234544537" style="zoom: 80%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220522234544537.png" alt="image-20220522234544537" style="zoom: 80%;" />
 
 **软件开发，是进入互联网IT圈最好的选择之一！**
 
@@ -59,25 +55,25 @@
 
 ### 2.4 软件开发之Java开发
 
-![image-20220504101615999](images/image-20220504101615999.png)
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220504101615999.png" alt="image-20220504101615999" style="zoom:50%;" />
 
-![image-20220608160444947](images/image-20220608160444947.png)
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220608160444947.png" alt="image-20220608160444947" style="zoom:67%;" />
 
 - **移动应用领域（集成Android平台）**：Java在Android端是主要开发的语言，占有重要的地位。
 
-  <img src="images/image-20220511092649122.png" alt="image-20220511092649122" style="zoom: 65%;" />
+  <img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220511092649122.png" alt="image-20220511092649122" style="zoom: 65%;" />
 
-  <img src="images/20220608_160310.jpg" alt="20220608_160310" style="zoom:67%;" />
+  <img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/20220608_160310.jpg" alt="20220608_160310" style="zoom:67%;" />
 
 - **企业级应用领域（JavaEE后台）**：用来开发企业级的应用程序，大型网站如淘宝、京东、12306，以及各大物流、银行、金融、社交、医疗、交通、各种OA系统等都是用JavaEE技术开发的。
 
-  <img src="images/image-20220511090528043.png" alt="image-20220511090528043" style="zoom:67%;" />
+  <img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220511090528043.png" alt="image-20220511090528043" style="zoom:67%;" />
 
 - **大数据分析、人工智能领域**：流行的大数据框架，如Hadoop、Flink都是用Java编写的。Spark使用Scala编写，但可以用Java开发应用。
 
-  <img src="images/image-20220511091647358.png" alt="image-20220511091647358" style="zoom:70%;" />
+  <img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220511091647358.png" alt="image-20220511091647358" style="zoom:70%;" />
 
-  ![image-20220513233529610](images/image-20220513233529610.png)
+  ![image-20220513233529610](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220513233529610.png)
 
   > Eversoft公司在提到2022年Java发展趋势时写道：
   >
@@ -99,11 +95,11 @@
 
 ### 2.6 八卦一下程序员
 
-<img src="images/image-20220602105134523.png" alt="image-20220602105134523" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220602105134523.png" alt="image-20220602105134523" style="zoom:80%;" />
 
 还可以是：
 
-![image-20220602105213557](images/image-20220602105213557.png)
+![image-20220602105213557](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220602105213557.png)
 
 ### 2.7 Java系列课程体系
 
@@ -111,7 +107,7 @@
 
 ### 2.8 Java职业晋升路线图
 
-![技术发展路线](images/技术发展路线.jpg)
+![技术发展路线](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/%E6%8A%80%E6%9C%AF%E5%8F%91%E5%B1%95%E8%B7%AF%E7%BA%BF.jpg)
 
 薪资数据统计来源：拉勾网
 
@@ -119,7 +115,7 @@
 
 ### 3.1 计算机组成：硬件+软件
 
-![image-20220524152902812](images/image-20220524152902812.png)
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220524152902812.png" alt="image-20220524152902812" style="zoom:67%;" />
 
 ### 3.2 CPU、内存与硬盘
 
