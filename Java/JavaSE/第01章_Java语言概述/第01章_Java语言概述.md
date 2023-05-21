@@ -131,17 +131,9 @@
   - 具体的：保存从硬盘读取的数据，提供给CPU使用；保存CPU的一些临时执行结果，以便CPU下次使用或保存到硬盘。
   - 断电后数据丢失。
 
-![image-20220731234604511](images/image-20220731234604511.png)
+![image-20220731234604511](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220731234604511.png)
 
-### 3.3 输入设备：键盘输入
 
-- 熟悉指法
-
-<img src="images/image-20220517100223784.png" alt="image-20220517100223784" style="zoom: 80%;" />
-
-不熟悉键盘的小伙伴，可以“`金山打字通`”走起了。坚决杜绝`二指禅`！！
-
-<img src="images/image-20220517100543176.png" alt="image-20220517100543176" style="zoom:67%;" />
 
 ## 4. 软件相关介绍
 
@@ -153,11 +145,11 @@
 
 系统软件：
 
-![image-20220522215226273](images/image-20220522215226273.png)
+![image-20220522215226273](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220522215226273.png)
 
 应用软件：
 
-![macdesk](images/macdesk.png)
+![macdesk](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/macdesk.png)
 
 ### 4.2 人机交互方式
 
@@ -165,7 +157,7 @@
 
 - **命令行方式**（Command Line Interface，CLI），需要在控制台输入特定的`指令`，让计算机完成一些操作。需要记忆一些指令，较为麻烦。
 
-  <img src="images/u=2668016850,3232153547&fm=253&fmt=auto&app=138&f=JPEG" alt="img" style="zoom:67%;" />
+  <img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/u=2668016850,3232153547&fm=253&fmt=auto&app=138&f=JPEG" alt="img" style="zoom:67%;" />
 
 ### 4.3 常用的DOS命令
 
@@ -177,7 +169,7 @@ DOS（Disk Operating System，磁盘操作系统）是Microsoft公司在Windows�
 
 - 按下Windows+R键盘，打开运行窗口，输入cmd回车，进入到DOS的操作窗口。
 
-  <img src="images/image-20220520100110104.png" alt="image-20220520100110104" style="zoom:80%;" />
+  <img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220520100110104.png" alt="image-20220520100110104" style="zoom:80%;" />
 
 **常用指令：**
 
@@ -234,7 +226,7 @@ DOS（Disk Operating System，磁盘操作系统）是Microsoft公司在Windows�
 
   * 这种语言本质上是计算机能识别的唯一语言，人类很难理解。可以大胆想象"`此时的程序员99.9%都是异类！`"
 
-    ![image-20220309223406537](images/image-20220309223406537.png)
+    ![image-20220309223406537](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220309223406537.png)
 
 * **第二代：汇编语言（相当于人类的青铜&铁器时代）**
 
@@ -244,7 +236,7 @@ DOS（Disk Operating System，磁盘操作系统）是Microsoft公司在Windows�
 
   * 缺点：汇编语言是`面向机器的`，不同计算机机型特点不同，因此会有不同的汇编语言，彼此之间`不能通用`。程序不易移植，较难调试。
 
-    <img src="images/image-20220309223725671.png" alt="image-20220309223725671" style="zoom:67%;" />
+    <img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220309223725671.png" alt="image-20220309223725671" style="zoom:67%;" />
 
   * 比起机器语言，汇编大大进步了，是机器语言向更高级的语言进化的`桥梁`。目前仍然应用于工业电子编程领域、软件的加密解密、计算机病毒分析等。
 
@@ -252,11 +244,11 @@ DOS（Disk Operating System，磁盘操作系统）是Microsoft公司在Windows�
 
   * 高级语言发展于20世纪50年代中叶到70年代，是一种`接近于人们使用习惯`的程序设计语言。它允许程序员使用`接近日常英语`的指令来编写程序，程序中的符号和算式也与`日常用的数学式子`差不多，接近于自然语言和数学语言，容易为人们掌握。比如：
 
-    ![image-20211218092541175](images/image-20211218092541175.png)
+    ![image-20211218092541175](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20211218092541175.png)
 
   * 高级语言`独立于机器`，有一定的通用性；计算机不能直接识别和执行用高级语言编写的程序，需要使用编译器或者解释器，`转换为机器语言`才能被识别和执行。
 
-<img src="images/image-20211218092630678.png" alt="image-20211218092630678" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20211218092630678.png" alt="image-20211218092630678" style="zoom:80%;" />
 
 ![image-20211218092541075](images/image-20211218092541075.png)
 
@@ -274,19 +266,19 @@ DOS（Disk Operating System，磁盘操作系统）是Microsoft公司在Windows�
 
 TIOBE （https://www.tiobe.com/tiobe-index/）是一个流行编程语言排行，每月更新。排名权重基于世界范围内 工程师数量，Google、Bing、Yahoo! 、Wikipedia、Amazon、Youtube和百度这些主流的搜索引擎，也将作为排名权重的参考指标。
 
-![image-20221027112824724](images/image-20221027112824724.png)
+![image-20221027112824724](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20221027112824724.png)
 
 计算机语言走势
 
-![image-20221027113511832](images/image-20221027113511832.png)
+![image-20221027113511832](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20221027113511832.png)
 
 ### 5.4 编程语言，该学哪个？
 
-<img src="images/image-20220310151657860.png" alt="image-20220310151657860" style="zoom: 50%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220310151657860.png" alt="image-20220310151657860" style="zoom: 50%;" />
 
 网传的编程语言鄙视链：
 
-![image-20220310151750665](images/image-20220310151750665.png)
+![image-20220310151750665](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220310151750665.png)
 
 - C语言：万物之源
 
@@ -312,7 +304,7 @@ TIOBE （https://www.tiobe.com/tiobe-index/）是一个流行编程语言排行�
 
 > - 诞生于1994年，一款`服务器端脚本语言`。最初表示个人主页（Personal Home Page）
 > - PHP语法和C类似，有很多的模板和框架，简单易懂，也许你可以在短短几天做出web app。它主要用于web端，快速建站网络开发
-> - 劣势：学习门槛太低；其代码运行速度低于大部分编程语言党争对手
+> - 劣势：学习门槛太低；其代码运行速度低于大部分编程语言。
 
 - Python：易学的语言
 
@@ -322,7 +314,7 @@ TIOBE （https://www.tiobe.com/tiobe-index/）是一个流行编程语言排行�
 - JavaScript语言：前端为王
 
 > - 诞生于1995年，网景公司开发完成。
-> - JavaScript是JavaScript 是目前`所有主流浏览器`上唯一支持的脚本语言。在前端开发中，占有不可替代的地位。
+> - JavaScript 是目前`所有主流浏览器`上唯一支持的脚本语言。在前端开发中，占有不可替代的地位。
 
 - Java语言：需求旺盛
 
@@ -366,7 +358,7 @@ Gosling团队率先创造了这个语言，并命名为“`Oak`"（起名的原�
 
 随着20世纪90年代互联网的发展，Sun公司发现该语言在互联网上应用的前景，于是改造了Oak，于1995年5月以Java的名称正式发布。（Java是印度尼西亚`爪哇岛`的英文名称，因盛产咖啡而闻名。）
 
-![image-20220309230839100](images/image-20220309230839100.png)
+![image-20220309230839100](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220309230839100.png)
 
 **发展阶段：**
 
@@ -393,7 +385,7 @@ Gosling团队率先创造了这个语言，并命名为“`Oak`"（起名的原�
 
 ### 6.3 Java之父
 
-<img src="images/image-20220310152923961.png" alt="image-20220310152923961" style="zoom:67%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220310152923961.png" alt="image-20220310152923961" style="zoom:67%;" />
 
 - `詹姆斯·高斯林(James Gosling)`先生以“Java 技术之父”而闻名于世。他是Java 技术的创始人，他亲手设计了Java语言，并开发了Java编译器和Java虚拟机，使Java成为了世界上最流行的开发语言。
 - James Gosling于1984 年加入Sun公司，并一直服务于Sun公司，直至2010年前后，Sun被Oracle并购而加入Oracle，担任客户端软件集团的首席技术官; 2010年4月从Oracle离职。
@@ -404,7 +396,7 @@ Gosling团队率先创造了这个语言，并命名为“`Oak`"（起名的原�
 
 > SUN是一家`极具创新能力`的公司，2001年 “9.11”以前，SUN公司市值`超过1000亿`美元。 但是没能利用Java构建一个强有力、可变现的生态系统，没打好Java这张牌。此后，互联网泡沫破裂，硬件需求大幅减少，它的市值在一个月之内跌幅超过90%。**SUN公司的成长用了20年，而衰落只用了1年！**
 
-<img src="images/image-20220309230923533.png" alt="image-20220309230923533" style="zoom: 67%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220309230923533.png" alt="image-20220309230923533" style="zoom: 67%;" />
 
 - **Oracle 与 Google**
 
@@ -432,7 +424,7 @@ Gosling团队率先创造了这个语言，并命名为“`Oak`"（起名的原�
 9. }
 ```
 
-![image-20221027145908490](images/image-20221027145908490.png)
+![image-20221027145908490](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20221027145908490.png)
 
 ### 6.5 Java技术体系平台
 
@@ -449,7 +441,7 @@ Gosling团队率先创造了这个语言，并命名为“`Oak`"（起名的原�
   - JavaME是JavaSE的内伸，精简了JavaSE 的核心类库，同时也提供自己的扩展类。增加了适合微小装置的类库：javax.microedition.io.*等。
   - 此版本以前称为J2ME
 
-![image-20211218093009884](images/image-20211218093009884.png)
+![image-20211218093009884](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20211218093009884.png)
 
 > 注意：
 >
@@ -464,9 +456,9 @@ Gosling团队率先创造了这个语言，并命名为“`Oak`"（起名的原�
 
 如下是Java 8.0 Platform：
 
-![](images/JDKJRE.jpg)
+![](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/JDKJRE.jpg)
 
-<img src="images/image-20220310200731185.png" alt="image-20220310200731185" style="zoom:67%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220310200731185.png" alt="image-20220310200731185" style="zoom:67%;" />
 
 > 小结：
 >
@@ -476,11 +468,11 @@ Gosling团队率先创造了这个语言，并命名为“`Oak`"（起名的原�
 
 ### 7.2 JDK版本选择
 
-<img src="images/image-20221108221057540.png" alt="image-20221108221057540" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20221108221057540.png" alt="image-20221108221057540" style="zoom:80%;" />
 
 ***
 
-![image-20220310201541841](images/image-20220310201541841.png)
+![image-20220310201541841](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220310201541841.png)
 
 - 自Java 8版本发布以来，其后的每次更新，都会有小伙伴高呼：**Java8 YYDS！**
 - 论坛的声音：“`你发任你发，我用Java 8！`”
@@ -489,7 +481,7 @@ Gosling团队率先创造了这个语言，并命名为“`Oak`"（起名的原�
 
 JRebel 于2022年4月前后发布了《2022 年Java生态系统状况报告》，报告中提到使用Java11 的占比最多，Java 8 紧随其后，如下图。而此前2020年的报告显示，Java8占比达到了`84.48%`。
 
-![d315](images/d315.jpeg)
+![d315](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/d315.jpeg)
 
 > 我的分析：
 >
@@ -503,7 +495,7 @@ JRebel 于2022年4月前后发布了《2022 年Java生态系统状况报告》�
 
 ***
 
-<img src="images/image-20220428151952049.png" alt="image-20220428151952049" style="zoom: 67%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220428151952049.png" alt="image-20220428151952049" style="zoom: 67%;" />
 
 **Spring框架说话：**
 
@@ -516,7 +508,7 @@ JRebel 于2022年4月前后发布了《2022 年Java生态系统状况报告》�
 
 Spring 官方说明：`https://spring.io/blog/2022/01/20/spring-boot-3-0-0-m1-is-now-available`
 
-![image-20220527155439683](images/image-20220527155439683.png)
+![image-20220527155439683](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220527155439683.png)
 
 > 意味着：springboot3.0 是需要用java17和spring6.0为基础建设。如果从企业选型最新springboot3.0作为架构来说，它搭配jdk17肯定是标配了。
 >
@@ -526,39 +518,39 @@ Spring 官方说明：`https://spring.io/blog/2022/01/20/spring-boot-3-0-0-m1-is
 * 下载网址（Oracle公司官网）：www.oracle.com
 * 下载步骤：如图所示，在官网底部选择Developers开发者
 
-![1572254490435](images/下载1.png)
+![1572254490435](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/下载1.png)
 
 （1）在Developers页面中间的技术分类部分，选择`Java`，单击进入，如图所示：
 
-<img src="images/image-20211019110551338.png" alt="image-20211019110551338" style="zoom: 50%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20211019110551338.png" alt="image-20211019110551338" style="zoom: 50%;" />
 
 （2）这里展示的是最新Java版本，例如Java17。单击`Download Java`，然后选择具体的版本下载。
 
-<img src="images/image-20211019110843394.png" alt="image-20211019110843394" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20211019110843394.png" alt="image-20211019110843394" style="zoom:80%;" />
 
 （3）选择Download Java按钮后
 
-![image-20211019111110242](images/image-20211019111110242.png)
+![image-20211019111110242](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20211019111110242.png)
 
 （4）如果想安装Java8 可以选择如下位置：
 
-<img src="images/image-20211019111150970.png" alt="image-20211019111150970" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20211019111150970.png" alt="image-20211019111150970" style="zoom:80%;" />
 
 （5）选择Accept License Agreement，
 
-<img src="images/image-20211019111252989.png" alt="image-20211019111252989" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20211019111252989.png" alt="image-20211019111252989" style="zoom:80%;" />
 
 （6）注册或登录后下载：
 
-<img src="images/image-20211019111922387.png" alt="image-20211019111922387" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20211019111922387.png" alt="image-20211019111922387" style="zoom:50%;" />
 
 （7）如果需要安装其它版本，可以选择Java archive：
 
-<img src="images/image-20220801004606762.png" alt="image-20220801004606762" style="zoom: 67%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220801004606762.png" alt="image-20220801004606762" style="zoom: 67%;" />
 
 接着进行选择下载即可：
 
-<img src="images/image-20220801004648997.png" alt="image-20220801004648997" style="zoom:67%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220801004648997.png" alt="image-20220801004648997" style="zoom:67%;" />
 
 ### 7.4 JDK的安装
 
@@ -571,21 +563,21 @@ Spring 官方说明：`https://spring.io/blog/2022/01/20/spring-boot-3-0-0-m1-is
 
 （1）双击`jdk-17_windows-x64_bin.exe`文件，并单击下一步，如图所示：
 
-![image-20220303083718546](images/image-20220303083718546.png)
+![image-20220303083718546](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220303083718546.png)
 
 （2）修改安装路径，单击更改，如图所示：
 
-![image-20220303083759546](images/image-20220303083759546.png)
+![image-20220303083759546](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220303083759546.png)
 
 （3）将安装路径修改为`D:\develop_tools\jdk\jdk-17.0.2\`，并单击下一步，如图所示：
 
-![image-20220303083845794](images/image-20220303083845794.png)
+![image-20220303083845794](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220303083845794.png)
 
 （4）稍后几秒，安装完成，如图所示：
 
-![image-20220303083905277](images/image-20220303083905277.png)
+![image-20220303083905277](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220303083905277.png)
 
-![image-20220303083931309](images/image-20220303083931309.png)
+![image-20220303083931309](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220303083931309.png)
 
 ### 7.5 配置path环境变量
 
@@ -603,11 +595,11 @@ Spring 官方说明：`https://spring.io/blog/2022/01/20/spring-boot-3-0-0-m1-is
 
 我们在`C:\Users\songhk`目录下使用javac命令，结果如下：
 
-![image-20220310223852720](images/image-20220310223852720.png)
+![image-20220310223852720](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220310223852720.png)
 
 我们在JDK的安装目录的bin目录下使用javac命令，结果如下：
 
-<img src="images/image-20220607113708022.png" alt="image-20220607113708022" style="zoom:75%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220607113708022.png" alt="image-20220607113708022" style="zoom:75%;" />
 
 我们不可能每次使用java.exe，javac.exe等工具的时候都进入到JDK的安装目录下，太麻烦了。这时就需要配置path环境变量。
 
@@ -617,35 +609,35 @@ Spring 官方说明：`https://spring.io/blog/2022/01/20/spring-boot-3-0-0-m1-is
 
 （1）打开桌面上的计算机，进入后在左侧找到`此电脑`，单击鼠标`右键`，选择`属性`，如图所示：
 
-![image-20220310224844837](images/image-20220310224844837.png)
+![image-20220310224844837](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220310224844837.png)
 
 （2）选择`高级系统设置`，如图所示：
 
-![image-20220310224912273](images/image-20220310224912273.png)
+![image-20220310224912273](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220310224912273.png)
 
 （3）在`高级`选项卡，单击`环境变量`，如图所示：
 
-![image-20220310224952745](images/image-20220310224952745.png)
+![image-20220310224952745](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220310224952745.png)
 
 （4）在`系统变量`中，选中`Path` 环境变量，`双击`或者`点击编辑` ,如图所示：
 
-![image-20220310225023208](images/image-20220310225023208.png)
+![image-20220310225023208](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220310225023208.png)
 
 （5）点击`新建`，填入`D:\develop_tools\jdk\jdk1.8.0_271\bin`  ，并将此值`上移`到变量列表的首位。如图所示：
 
 - 编辑模式1：
 
-<img src="images/image-20220607114102135.png" alt="image-20220607114102135" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220607114102135.png" alt="image-20220607114102135" style="zoom:80%;" />
 
 - 编辑模式2：（注意，结尾需要有英文模式下的;）
 
-![image-20220929104547925](images/image-20220929104547925.png)
+![image-20220929104547925](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220929104547925.png)
 
 （6）环境变量配置完成，**重新开启**DOS命令行，在任意目录下输入`javac` 或`java`命令或`java -version`，运行成功。
 
-<img src="images/image-20220607114432286.png" alt="image-20220607114432286" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220607114432286.png" alt="image-20220607114432286" style="zoom:80%;" />
 
-<img src="images/image-20220607114517652.png" alt="image-20220607114517652" style="zoom:90%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220607114517652.png" alt="image-20220607114517652" style="zoom:90%;" />
 
 
 
@@ -654,39 +646,39 @@ Spring 官方说明：`https://spring.io/blog/2022/01/20/spring-boot-3-0-0-m1-is
 
 （1）打开桌面上的计算机，进入后在左侧找到`计算机`，单击鼠标`右键`，选择`属性`，如图所示：
 
-![image-20220310224844837](images/image-20220310224844837.png)
+![image-20220310224844837](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220310224844837.png)
 
 （2）选择`高级系统设置`，如图所示：
 
-![image-20220310224912273](images/image-20220310224912273.png)
+![image-20220310224912273](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220310224912273.png)
 
 （3）在`高级`选项卡，单击`环境变量`，如图所示：
 
-![image-20220310224952745](images/image-20220310224952745.png)
+![image-20220310224952745](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220310224952745.png)
 
 （4）在`系统变量`中，单击`新建` ，创建新的环境变量，如图所示：
 
-<img src="images/image-20220310225245208.png" alt="image-20220310225245208" style="zoom:90%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220310225245208.png" alt="image-20220310225245208" style="zoom:90%;" />
 
 （5）变量名输入`JAVA_HOME`，变量值输入 `D:\develop_tools\jdk\jdk1.8.0_271` ，单击`确定`，如图所示：
 
-<img src="images/image-20220607114800372.png" alt="image-20220607114800372" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220607114800372.png" alt="image-20220607114800372" style="zoom:80%;" />
 
 （6）选中`Path` 环境变量，`双击`或者`点击编辑` ，如图所示：
 
-![image-20220310225023208](images/image-20220310225023208.png)
+![image-20220310225023208](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220310225023208.png)
 
 （7）在变量值的最前面，键入`%JAVA_HOME%\bin`。如图所示：
 
-<img src="images/image-20220607114953758.png" alt="image-20220607114953758" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220607114953758.png" alt="image-20220607114953758" style="zoom:80%;" />
 
 > 注意：强烈建议将%JAVA_HOME%\bin声明在path环境变量中所有变量的最前面！
 
 （8）环境变量配置完成，**重启**DOS命令行，在任意目录下输入`javac` 或`java`命令或`java -version`，运行成功。
 
-<img src="images/image-20220607114432286.png" alt="image-20220607114432286" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220607114432286.png" alt="image-20220607114432286" style="zoom:80%;" />
 
-<img src="images/image-20220607114517652.png" alt="image-20220607114517652" style="zoom:90%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220607114517652.png" alt="image-20220607114517652" style="zoom:90%;" />
 
 
 
@@ -696,23 +688,23 @@ Spring 官方说明：`https://spring.io/blog/2022/01/20/spring-boot-3-0-0-m1-is
 
 **小结如下：**
 
-![image-20220607115255562](images/image-20220607115255562.png)
+![image-20220607115255562](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220607115255562.png)
 
 #### 7.5.4 JDK17配置方案：自动配置
 
 不管大家有没有提前安装JDK8或其它版本JDK，在我们安装完JDK17之后，理应按JDK8的方式配置path环境变量。但是，我们发现在安装完JDK17以后，配置环境变量之前，执行CMD指令：
 
-<img src="images/image-20220607115700870.png" alt="image-20220607115700870" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220607115700870.png" alt="image-20220607115700870" style="zoom:80%;" />
 
 竟然成功了！而且是17.0.2版本。因为JDK17在安装之后，自动进行了环境变量的配置。如下：
 
-<img src="images/image-20220607115840388.png" alt="image-20220607115840388" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220607115840388.png" alt="image-20220607115840388" style="zoom:80%;" />
 
 这里建议，将JDK17安装的路径，设置为JAVA_HOME，并将`%JAVA_HOME%\bin`上移到首位。
 
-<img src="images/image-20221110142710972.png" alt="image-20221110142710972" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20221110142710972.png" alt="image-20221110142710972" style="zoom:80%;" />
 
-<img src="images/image-20221110142734279.png" alt="image-20221110142734279" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20221110142734279.png" alt="image-20221110142734279" style="zoom:80%;" />
 
 > 思考：如果你仍然希望在JDK8下开发Java程序？如何做呢？
 
@@ -727,13 +719,13 @@ Java程序开发三步骤：**编写**、**编译**、**运行**。
 - 通过 javac.exe 命令对该 java 文件进行**编译**，生成一个或多个字节码文件
 - 通过 java.exe 命令对生成的 class 文件进行**运行**
 
-![image-20220310230210728](images/image-20220310230210728.png)
+![image-20220310230210728](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220310230210728.png)
 
 ### 8.2 编写
 
 （1）在`D:\JavaSE\chapter01` 目录下新建文本文件，完整的文件名修改为`HelloWorld.java`，其中文件名为`HelloWorld`，后缀名必须为`.java`。
 
-<img src="images/image-20220801010222222.png" alt="image-20220801010222222" style="zoom:90%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220801010222222.png" alt="image-20220801010222222" style="zoom:90%;" />
 
 （2）用记事本或editplus等文本编辑器打开（虽然记事本也可以，但是没有关键字颜色标识，不利于初学者学习）
 
@@ -751,11 +743,11 @@ class HelloChina {
 
 - 友情提示2：
 
-<img src="images/image-20220310230618659.png" alt="image-20220310230618659" style="zoom:67%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220310230618659.png" alt="image-20220310230618659" style="zoom:67%;" />
 
 或
 
-<img src="images/image-20220521173215013.png" alt="image-20220521173215013" style="zoom:90%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220521173215013.png" alt="image-20220521173215013" style="zoom:90%;" />
 
 第一个`HelloWord` 源程序就编写完成了，但是这个文件是程序员编写的，JVM是看不懂的，也就不能运行，因此我们必须将编写好的`Java源文件` 编译成JVM可以看懂的`字节码文件` ，也就是`.class`文件。
 
@@ -765,7 +757,7 @@ class HelloChina {
 
 使用文件资源管理器打开`D:\JavaSE\chapter01`目录，然后在地址栏输入cmd。
 
-<img src="images/image-20220801010435144.png" alt="image-20220801010435144" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220801010435144.png" alt="image-20220801010435144" style="zoom:80%;" />
 
 命令：
 
@@ -779,7 +771,7 @@ javac Java源文件名.后缀名java
 javac HelloWorld.java
 ```
 
-<img src="images/image-20220801010840640.png" alt="image-20220801010840640" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220801010840640.png" alt="image-20220801010840640" style="zoom:80%;" />
 
 编译成功后，命令行没有任何提示。打开`D:\JavaSE\chapter01`目录，发现产生了一个新的文件 `HelloChina.class`，该文件就是编译后的文件，是Java的可运行文件，称为**字节码文件**，有了字节码文件，就可以运行程序了。 
 
@@ -811,7 +803,7 @@ java HelloChina
 >
 > java HelloChina.class
 
-<img src="images/image-20220801011104381.png" alt="image-20220801011104381" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220801011104381.png" alt="image-20220801011104381" style="zoom:80%;" />
 
 ## 9. Java开发工具
 
@@ -819,13 +811,13 @@ java HelloChina
 
 - 级别一：文本开发工具
 
-<img src="images/image-20220513185907022.png" alt="image-20220513185907022" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220513185907022.png" alt="image-20220513185907022" style="zoom:50%;" />
 
 - 级别二：集成开发环境（Integrated Development Environment，IDE）
 
 > 把代码编写，编译，执行，调试等多种功能综合到一起的开发工具。
 
-<img src="images/image-20220513190655773.png" alt="image-20220513190655773" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220513190655773.png" alt="image-20220513190655773" style="zoom:50%;" />
 
 ### 9.2 如何选择
 
@@ -851,7 +843,7 @@ java HelloChina
 
 举例1：
 
- <img src="images/image-20220310231657692.png" alt="image-20220310231657692" style="zoom:80%;" />
+ <img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220310231657692.png" alt="image-20220310231657692" style="zoom:80%;" />
 
 - 源文件名不存在或者写错
 - 当前路径错误
@@ -859,7 +851,7 @@ java HelloChina
 
 举例2：
 
- <img src="images/image-20220310231717893.png" alt="image-20220310231717893" style="zoom:80%;" />
+ <img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220310231717893.png" alt="image-20220310231717893" style="zoom:80%;" />
 
 - 类文件名写错，尤其文件名与类名不一致时，要小心
 - 类文件不在当前路径下，或者不在classpath指定路径下
@@ -868,13 +860,13 @@ java HelloChina
 
 举例1：
 
- <img src="images/image-20220310231746581.png" alt="image-20220310231746581" style="zoom:90%;" />
+ <img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220310231746581.png" alt="image-20220310231746581" style="zoom:90%;" />
 
 声明为public的类应与文件名一致，否知编译失败。
 
 举例2：
 
- <img src="images/image-20220310231815405.png" alt="image-20220310231815405" style="zoom:80%;" />
+ <img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220310231815405.png" alt="image-20220310231815405" style="zoom:80%;" />
 
 编译失败，注意错误出现的行数，再到源代码中指定位置改错
 
@@ -882,17 +874,17 @@ java HelloChina
 
 当cmd命令行窗口的字符编码与.java源文件的字符编码不一致，如何解决？
 
- ![1557881223916](images/命令行编译乱码.png)
+ ![1557881223916](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/命令行编译乱码.png)
 
 解决方案一：
 
 - 在Notepad++等编辑器中，修改源文件的字符编码：
 
-<img src="images/Notepad修改源文件字符编码.png" alt="1557881271819" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/Notepad修改源文件字符编码.png" alt="1557881271819" style="zoom:80%;" />
 
 - 在EditPlus中可以将Java源文件另存为ANSI编码方式（中文操作系统下即为GBK字符集）
 
-<img src="images/1658810752424.png" alt="1658810752424" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/1658810752424.png" alt="1658810752424" style="zoom:80%;" />
 
 解决方案二：
 
@@ -985,8 +977,6 @@ public static void main(String[] args){
 
 ## 12. 注释(comment)
 
-<img src="images/image-20220610113151774.png" alt="image-20220610113151774" style="zoom: 67%;" />
-
 - 什么是注释？
 
   - 源文件中用于解释、说明程序的文字就是注释。
@@ -1001,7 +991,7 @@ public static void main(String[] args){
 
 - 不加注释的危害
 
-  ![](images/新来的菜鸟程序员闯祸了。。。这段代码好多年都没人敢动过的.gif)
+  ![](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/新来的菜鸟程序员闯祸了。。。这段代码好多年都没人敢动过的.gif)
 
 - Java中的注释类型：
 
@@ -1035,12 +1025,13 @@ public static void main(String[] args){
   - 调试程序的重要方法。
 
 - **具体使用1：单行注释、多行注释**
-  - 对于单行和多行注释，被注释的文字，不会不会出现在字节码文件中，进而不会被JVM（java虚拟机）解释执行。
-
+  
+  - 对于单行和多行注释，被注释的文字，不会出现在字节码文件中，进而不会被JVM（java虚拟机）解释执行。
+  
   - 多行注释里面不允许有多行注释嵌套。
-
+  
   - 一个段子
-
+  
     ```java
     A：嘿 //是什么意思啊？
     B：嘿.
@@ -1059,7 +1050,7 @@ public static void main(String[] args){
     N年之后，A终于修成正果，回想起B，又把聊天记录翻出来看，这时，他突然发现B没有耍他……
     而他自己也不知道当年他问B的究竟是什么问题……
     ```
-
+  
 - **具体使用2：文档注释（Java特有）**
 
   - 文档注释内容可以被JDK提供的工具 javadoc 所解析，生成一套以网页文件形式体现的该程序的说明文档。
@@ -1070,7 +1061,7 @@ public static void main(String[] args){
     javadoc -d mydoc -author -version HelloWorld.java
     ```
 
-<img src="images/image-20220310232527578.png" alt="image-20220310232527578" style="zoom:67%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220310232527578.png" alt="image-20220310232527578" style="zoom:67%;" />
 
 案例：
 
@@ -1102,7 +1093,7 @@ public class HelloWorld{
 - Java语言提供了大量的基础类，因此 Oracle 也为这些基础类提供了相应的说明文档，用于告诉开发者如何使用这些类，以及这些类里包含的方法。大多数Java书籍中的类的介绍都要参照它来完成，它是编程者经常查阅的资料。
 - Java API文档，即为JDK使用说明书、帮助文档。类似于：
 
-<img src="images/新华字典.jpg" alt="新华字典" style="zoom:28%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/新华字典.jpg" alt="新华字典" style="zoom:28%;" />
 
 - 下载API文档：
   - 在线看：https://docs.oracle.com/en/java/javase/17/docs/api/index.html
@@ -1120,9 +1111,9 @@ Java确实是从C语言和C++语言继承了许多成份，甚至可以将Java�
 * 通过Java语言编写的应用程序在不同的系统平台上都可以运行。“`Write once , Run Anywhere`”。
 * 原理：只要在需要运行 java 应用程序的操作系统上，先安装一个Java虚拟机 (`J`VM ，Java `V`irtual `M`achine) 即可。由JVM来负责Java程序在该系统中的运行。
 
-<img src="images/JVM的跨平台性-1666858570703.jpg" alt="JVM的跨平台性" style="zoom:70%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/JVM的跨平台性-1666858570703.jpg" alt="JVM的跨平台性" style="zoom:70%;" />
 
-![image-20211217111217831](images/image-20211217111217831.png)
+![image-20211217111217831](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20211217111217831.png)
 
 * **面向对象性：**
 
@@ -1154,17 +1145,17 @@ Java确实是从C语言和C++语言继承了许多成份，甚至可以将Java�
 
 **JVM**（`J`ava `V`irtual `M`achine ，Java虚拟机）：是一个虚拟的计算机，是Java程序的运行环境。JVM具有指令集并使用不同的存储区域，负责执行指令，管理数据、内存、寄存器。
 
-<img src="images/image-20220310165805739.png" alt="image-20220310165805739" style="zoom:67%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220310165805739.png" alt="image-20220310165805739" style="zoom:67%;" />
 
 #### 14.2.1 功能1：实现Java程序的跨平台性
 
 我们编写的Java代码，都运行在**JVM** 之上。正是因为有了JVM，才使得Java程序具备了跨平台性。
 
-<img src="images/image-20220513191856727.png" alt="image-20220513191856727" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220513191856727.png" alt="image-20220513191856727" style="zoom:50%;" />
 
 使用JVM前后对比：
 
-![image-20220514151716805](images/image-20220514151716805.png)
+![image-20220514151716805](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220514151716805.png)
 
 #### 14.2.2 功能2：自动内存管理(内存分配、内存回收)
 
@@ -1180,7 +1171,7 @@ Java确实是从C语言和C++语言继承了许多成份，甚至可以将Java�
 
 **案例1：个人信息输出**
 
- ![image-20220315221336038](images/image-20220315221336038.png)
+ ![image-20220315221336038](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220315221336038.png)
 
 ```java
 class Exercise1{
@@ -1197,7 +1188,7 @@ class Exercise1{
 
 结合\n(换行)，\t(制表符)，空格等在控制台打印出如下图所示的效果。
 
-![image-20220309004152219](images/image-20220309004152219-1646757896991.png) 
+![image-20220309004152219](https://cdn.jsdelivr.net/gh/white-Amber/blog-img/img/image-20220309004152219-1646757896991.png) 
 
 方式一：
 
