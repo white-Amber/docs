@@ -983,6 +983,17 @@ System.out.println(sb1);//
   
   - 此方法适于计算时间差。
   
+  > 计算机为什么在时间计算上以`1970年1月1日0时0分0秒`为起点？
+  >
+  > 计算机在计算时间上以1970年1月1日0时0分0秒（通常被称为"Unix时间戳"或"Epoch时间"）为起点，这是因为这个时间点在计算机科学和操作系统设计中具有重要的历史和技术原因。
+  >
+  > 1. Unix操作系统的诞生：Unix操作系统是现代操作系统的鼻祖之一，它于1970年问世。为了实现时间的记录和处理，Unix的创建者选择了1970年1月1日作为时间起点，因此Unix时间戳从这个时间开始计算。
+  > 2. 32位系统的限制：早期的计算机系统采用32位整数表示时间戳，这种表示方法可以容纳的最大整数是2^31-1。从1970年1月1日开始计算，可表示的时间范围能够覆盖相对较长的时间段，大约涵盖了1970年至2038年之间的时间。
+  > 3. 时间计算的简化：从1970年1月1日作为起点，可以使时间的表示和计算变得简单。计算机可以使用整数或浮点数来表示时间戳，通过简单的加减运算即可进行时间的计算和比较。此外，基于Unix时间戳的日期和时间库可以提供简便的时间操作方法。
+  > 4. 全球标准时间：1970年1月1日是全球范围内广泛接受的时间起点，它是基于协调世界时（UTC）的参考时间。由于计算机系统在全球范围内应用，以这个共同的起点作为时间计算的标准，有助于统一时间表示和跨系统的时间协调。
+  >
+  > 总之，计算机从1970年1月1日0时0分0秒开始计算时间，是基于历史和技术的考虑。这个时间点在Unix操作系统的诞生、32位系统的限制、时间计算的简化以及全球标准时间的一致性等方面具有重要的意义。
+  
 - 计算世界时间的主要标准有：
   - UTC(Coordinated Universal Time)
   - GMT(Greenwich Mean Time)
@@ -999,7 +1010,12 @@ System.out.println(sb1);//
   - Date(long 毫秒数)：把该毫秒值换算成日期时间对象
 - 常用方法
   - getTime(): 返回自 1970 年 1 月 1 日 00:00:00 GMT 以来此 Date 对象表示的毫秒数。
+  - setTIme(long time)：重设Date对象所表示的时间。
   - toString(): 把此 Date 对象转换为以下形式的 String： dow mon dd hh:mm:ss zzz yyyy 其中： dow 是一周中的某一天 (Sun, Mon, Tue, Wed, Thu, Fri, Sat)，zzz是时间标准。
+  - boolean before(Date when)：测试此日期是否在指定日期之前。
+  - boolean after(Date when)：测试此日期是否在指定日期之后。
+  - boolean equals(Object obj)：比较两个日期是否相等。
+  - int compareTo(Date anotherDate)：日期比较，0-相等；1-大于；-1-小于；`推荐使用`。
   - 其它很多方法都过时了。
 - 举例：
 
@@ -1216,13 +1232,13 @@ Java 8 以一个新的开始为 Java 创建优秀的 API。新的日期时间API
 | getDayOfWeek()                                               | 获得星期几(返回一个 DayOfWeek 枚举值)                        |
 | getMonth()                                                   | 获得月份, 返回一个 Month 枚举值                              |
 | getMonthValue() / getYear()                                  | 获得月份(1-12) /获得年份                                     |
-| getHours()/getMinute()/getSecond()                           | 获得当前对象对应的小时、分钟、秒                             |
+| getHour()/getMinute()/getSecond()                            | 获得当前对象对应的小时、分钟、秒                             |
 | withDayOfMonth()/withDayOfYear()/withMonth()/withYear()      | 将月份天数、年份天数、月份、年份修改为指定的值并返回新的对象 |
 | with(TemporalAdjuster  t)                                    | 将当前日期时间设置为校对器指定的日期时间                     |
 | plusDays(), plusWeeks(), plusMonths(), plusYears(),plusHours() | 向当前对象添加几天、几周、几个月、几年、几小时               |
 | minusMonths() / minusWeeks()/minusDays()/minusYears()/minusHours() | 从当前对象减去几月、几周、几天、几年、几小时                 |
 | plus(TemporalAmount t)/minus(TemporalAmount t)               | 添加或减少一个 Duration 或 Period                            |
-| isBefore()/isAfter()                                         | 比较两个 LocalDate                                           |
+| isBefore()/isAfter()/compareTo()                             | 比较两个 LocalDate                                           |
 | isLeapYear()                                                 | 判断是否是闰年（在LocalDate类中声明）                        |
 | format(DateTimeFormatter  t)                                 | 格式化本地日期、时间，返回一个字符串                         |
 | parse(Charsequence text)                                     | 将指定格式的字符串解析为日期、时间                           |
@@ -1271,7 +1287,13 @@ public class TestLocalDateTime {
         LocalDate now = LocalDate.now();
         LocalDate before = now.minusDays(100);
         System.out.println(before);//2019-02-26
-    }   
+    }
+    
+    @Test
+    public void test7(){
+        LocalDate date = LocalDate.of(2021, 1, 1);
+		System.out.println(date.format(DateTimeFormatter.ofPattern("yyyy年MM月dd日")));
+    }
 }
 ```
 
@@ -1371,6 +1393,14 @@ public class TestDatetimeFormatter {
         // 格式化
         String str3 = formatter2.format(LocalDate.now());
         System.out.println(str3);// 2022年12月4日 星期日
+        
+        LocalDateTime dateTime = LocalDateTime.now();
+        DateTimeFormatter formatter3 = DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM);
+        System.out.println(formatter3.format(dateTime)); // 2023-6-12
+        
+        LocalDateTime dateTime = LocalDateTime.now();
+        DateTimeFormatter formatter = DateTimeFormatter.ofLocalizedDate(FormatStyle.SHORT);
+        System.out.println(formatter.format(dateTime)); //23-6-12
     }
 
     @Test
